@@ -1,44 +1,175 @@
-[19:40:15] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
-[19:40:15] [main/INFO]: Loading 10 mods:
-	- distanthorizons 2.1.0-a
-	   |-- fabric-api-base 0.4.35+78d798af4f
-	   |-- fabric-events-interaction-v0 0.6.14+78d798af4f
-	   |-- fabric-key-binding-api-v1 1.0.40+78d798af4f
-	   |-- fabric-lifecycle-events-v1 2.2.29+78d798af4f
-	   |-- fabric-networking-api-v1 3.1.2+78d798af4f
-	   |-- fabric-rendering-v1 3.0.12+78d798af4f
-	   |-- fabric-resource-loader-v0 0.11.15+78d798af4f
-	   \-- fabric-screen-api-v1 2.0.16+78d798af4f
+[19:55:46] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
+[19:55:46] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.15.11
 	   \-- mixinextras 0.3.5
 	- java 21
 	- minecraft 1.20.4
-[19:40:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/meowtrying/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[19:40:15] [main/INFO]: Compatibility level set to JAVA_17
-[19:40:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[19:40:21] [main/INFO]: Initializing Distant Horizons
-[19:40:21] [main/INFO]: Java.awt.headless set to true. Distant Horizons can correctly display error and info dialog windows.
-[19:40:21] [main/INFO]: Distant Horizons, Version: 2.1.0-a
-[19:40:21] [main/ERROR]: Failed to start the minecraft server
-java.lang.RuntimeException: Could not execute entrypoint stage 'server' due to errors, provided by 'distanthorizons'!
-	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:388) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:386) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:64) ~[fabric-loader-0.15.11.jar:?]
-	at net.minecraft.server.Main.main(Main.java:109) ~[server-intermediary.jar:?]
+[19:55:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/meowtrying/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[19:55:57] [main/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
+	at net.minecraft.class_3808.method_16727(class_3808.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3806.method_16714(class_3806.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3807.<init>(class_3807.java:12) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:112) ~[server-intermediary.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-Caused by: java.lang.ExceptionInInitializerError
-	at loaderCommon.fabric.com.seibel.distanthorizons.common.AbstractModInitializer.onInitializeServer(AbstractModInitializer.java:99) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.11.jar:?]
-	... 7 more
-Caused by: java.lang.NullPointerException: Cannot invoke "com.seibel.distanthorizons.core.wrapperInterfaces.config.IConfigGui.addOnScreenChangeListener(java.lang.Runnable)" because "com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler.configGui" is null
-	at com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler.<init>(AbstractPresetConfigEventHandler.java:60) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at com.seibel.distanthorizons.core.config.eventHandlers.presets.ThreadPresetConfigEventHandler.<init>(ThreadPresetConfigEventHandler.java:139) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at com.seibel.distanthorizons.core.config.eventHandlers.presets.ThreadPresetConfigEventHandler.<clinit>(ThreadPresetConfigEventHandler.java:37) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at loaderCommon.fabric.com.seibel.distanthorizons.common.AbstractModInitializer.onInitializeServer(AbstractModInitializer.java:99) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.11.jar:?]
-	... 7 more
+[19:55:58] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:55:59] [main/INFO]: No existing world data, creating new world
+[19:56:02] [main/INFO]: Loaded 7 recipes
+[19:56:03] [main/INFO]: Loaded 1271 advancements
+[19:56:05] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[19:56:05] [Server thread/INFO]: Loading properties
+[19:56:05] [Server thread/INFO]: Default game type: SURVIVAL
+[19:56:05] [Server thread/INFO]: Generating keypair
+[19:56:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:56:06] [Server thread/INFO]: Using epoll channel type
+[19:56:06] [Server thread/INFO]: Preparing level "world"
+[19:56:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:56:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:38] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:40] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:41] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:45] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:45] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:50] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:56] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:56] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:56:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:57:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:57:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:57:09] [Worker-Main-1/INFO]: Preparing spawn area: 11%
+[19:57:10] [Worker-Main-1/INFO]: Preparing spawn area: 45%
+[19:57:10] [Worker-Main-1/INFO]: Preparing spawn area: 66%
+[19:57:11] [Worker-Main-1/INFO]: Preparing spawn area: 67%
+[19:57:11] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[19:57:12] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[19:57:12] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[19:57:13] [Worker-Main-1/INFO]: Preparing spawn area: 68%
+[19:57:13] [Worker-Main-1/INFO]: Preparing spawn area: 70%
+[19:57:14] [Worker-Main-1/INFO]: Preparing spawn area: 71%
+[19:57:14] [Worker-Main-1/INFO]: Preparing spawn area: 71%
+[19:57:15] [Worker-Main-1/INFO]: Preparing spawn area: 73%
+[19:57:15] [Worker-Main-1/INFO]: Preparing spawn area: 74%
+[19:57:16] [Worker-Main-1/INFO]: Preparing spawn area: 75%
+[19:57:16] [Worker-Main-1/INFO]: Preparing spawn area: 76%
+[19:57:17] [Worker-Main-1/INFO]: Preparing spawn area: 77%
+[19:57:17] [Worker-Main-1/INFO]: Preparing spawn area: 78%
+[19:57:18] [Worker-Main-1/INFO]: Preparing spawn area: 78%
+[19:57:18] [Worker-Main-1/INFO]: Preparing spawn area: 78%
+[19:57:19] [Worker-Main-1/INFO]: Preparing spawn area: 78%
+[19:57:19] [Worker-Main-1/INFO]: Preparing spawn area: 79%
+[19:57:20] [Worker-Main-1/INFO]: Preparing spawn area: 83%
+[19:57:20] [Worker-Main-1/INFO]: Preparing spawn area: 83%
+[19:57:21] [Worker-Main-1/INFO]: Preparing spawn area: 84%
+[19:57:21] [Worker-Main-1/INFO]: Preparing spawn area: 84%
+[19:57:22] [Worker-Main-1/INFO]: Preparing spawn area: 86%
+[19:57:22] [Worker-Main-1/INFO]: Preparing spawn area: 87%
+[19:57:23] [Worker-Main-1/INFO]: Preparing spawn area: 89%
+[19:57:23] [Worker-Main-1/INFO]: Preparing spawn area: 89%
+[19:57:24] [Worker-Main-1/INFO]: Preparing spawn area: 89%
+[19:57:24] [Worker-Main-1/INFO]: Preparing spawn area: 91%
+[19:57:25] [Worker-Main-1/INFO]: Preparing spawn area: 94%
+[19:57:25] [Worker-Main-1/INFO]: Preparing spawn area: 95%
+[19:57:26] [Worker-Main-1/INFO]: Preparing spawn area: 95%
+[19:57:26] [Worker-Main-1/INFO]: Preparing spawn area: 95%
+[19:57:27] [Worker-Main-1/INFO]: Preparing spawn area: 95%
+[19:57:27] [Server thread/INFO]: Time elapsed: 61692 ms
+[19:57:27] [Server thread/INFO]: Done (80.847s)! For help, type "help"
+[19:58:29] [Server thread/INFO]: Stopping the server
+[19:58:29] [Server thread/INFO]: Stopping server
+[19:58:29] [Server thread/INFO]: Saving players
+[19:58:29] [Server thread/INFO]: Saving worlds
+[19:58:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:58:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:58:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:58:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:58:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:58:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:58:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
