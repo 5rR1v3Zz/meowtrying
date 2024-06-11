@@ -1,54 +1,35 @@
-[20:08:47] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
-	at ame.b(SourceFile:62) ~[server-1.20.4.jar:?]
-	at amb.a(SourceFile:138) ~[server-1.20.4.jar:?]
-	at amc.<init>(SourceFile:12) ~[server-1.20.4.jar:?]
-	at net.minecraft.server.Main.main(SourceFile:112) ~[server-1.20.4.jar:?]
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[20:08:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:08:51] [ServerMain/INFO]: Loaded 7 recipes
-[20:08:51] [ServerMain/INFO]: Loaded 1271 advancements
-[20:08:52] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[20:08:52] [Server thread/INFO]: Loading properties
-[20:08:52] [Server thread/INFO]: Default game type: SURVIVAL
-[20:08:52] [Server thread/INFO]: Generating keypair
-[20:08:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:08:52] [Server thread/INFO]: Using epoll channel type
-[20:08:52] [Server thread/INFO]: Preparing level "world"
-[20:09:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:09:10] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[20:09:10] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[20:09:11] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[20:09:11] [Worker-Main-1/INFO]: Preparing spawn area: 5%
-[20:09:12] [Server thread/INFO]: Time elapsed: 10602 ms
-[20:09:12] [Server thread/INFO]: Done (19.285s)! For help, type "help"
-[20:09:12] [Server thread/ERROR]: Couldn't load server icon
+[20:19:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:19:14] [ServerMain/INFO]: Loaded 7 recipes
+[20:19:14] [ServerMain/INFO]: Loaded 1271 advancements
+[20:19:15] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:19:15] [Server thread/INFO]: Loading properties
+[20:19:15] [Server thread/INFO]: Default game type: SURVIVAL
+[20:19:15] [Server thread/INFO]: Generating keypair
+[20:19:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:19:15] [Server thread/INFO]: Using epoll channel type
+[20:19:15] [Server thread/INFO]: Preparing level "world"
+[20:19:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:19:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:19:31] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[20:19:31] [Server thread/INFO]: Time elapsed: 8767 ms
+[20:19:31] [Server thread/INFO]: Done (15.701s)! For help, type "help"
+[20:19:31] [Server thread/ERROR]: Couldn't load server icon
 java.lang.IllegalStateException: Must be 64 pixels wide
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar:?]
 	at net.minecraft.server.MinecraftServer.j(SourceFile:807) ~[server-1.20.4.jar:?]
@@ -57,20 +38,14 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 	at net.minecraft.server.MinecraftServer.w(SourceFile:653) ~[server-1.20.4.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:270) ~[server-1.20.4.jar:?]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[20:14:37] [User Authenticator #1/INFO]: UUID of player SrR1v3rah is e94ddd07-0ca0-4666-a5e9-ffa27d4ab624
-[20:14:37] [Server thread/INFO]: SrR1v3rah[/127.155.49.148:39927] logged in with entity id 104 at (-2393.328427668334, 63.0, -1237.699999988079)
-[20:14:37] [Server thread/INFO]: SrR1v3rah joined the game
-[20:14:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
-[20:17:12] [Server thread/INFO]: SrR1v3rah lost connection: Disconnected
-[20:17:12] [Server thread/INFO]: SrR1v3rah left the game
-[20:17:19] [Server thread/INFO]: Stopping the server
-[20:17:19] [Server thread/INFO]: Stopping server
-[20:17:19] [Server thread/INFO]: Saving players
-[20:17:19] [Server thread/INFO]: Saving worlds
-[20:17:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:overworld
-[20:17:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_end
-[20:17:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_nether
-[20:17:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:17:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:17:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:17:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:20:18] [Server thread/INFO]: Stopping the server
+[20:20:18] [Server thread/INFO]: Stopping server
+[20:20:18] [Server thread/INFO]: Saving players
+[20:20:18] [Server thread/INFO]: Saving worlds
+[20:20:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:overworld
+[20:20:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_nether
+[20:20:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_end
+[20:20:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:20:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:20:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:20:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
