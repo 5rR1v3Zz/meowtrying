@@ -1,44 +1,76 @@
-[20:04:01] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
-[20:04:01] [main/INFO]: Loading 10 mods:
-	- distanthorizons 2.1.0-a
-	   |-- fabric-api-base 0.4.35+78d798af4f
-	   |-- fabric-events-interaction-v0 0.6.14+78d798af4f
-	   |-- fabric-key-binding-api-v1 1.0.40+78d798af4f
-	   |-- fabric-lifecycle-events-v1 2.2.29+78d798af4f
-	   |-- fabric-networking-api-v1 3.1.2+78d798af4f
-	   |-- fabric-rendering-v1 3.0.12+78d798af4f
-	   |-- fabric-resource-loader-v0 0.11.15+78d798af4f
-	   \-- fabric-screen-api-v1 2.0.16+78d798af4f
-	- fabricloader 0.15.11
-	   \-- mixinextras 0.3.5
-	- java 21
-	- minecraft 1.20.4
-[20:04:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/meowtrying/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[20:04:01] [main/INFO]: Compatibility level set to JAVA_17
-[20:04:02] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[20:04:10] [main/INFO]: Initializing Distant Horizons
-[20:04:10] [main/INFO]: Java.awt.headless set to true. Distant Horizons can correctly display error and info dialog windows.
-[20:04:10] [main/INFO]: Distant Horizons, Version: 2.1.0-a
-[20:04:10] [main/ERROR]: Failed to start the minecraft server
-java.lang.RuntimeException: Could not execute entrypoint stage 'server' due to errors, provided by 'distanthorizons'!
-	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:388) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:386) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:64) ~[fabric-loader-0.15.11.jar:?]
-	at net.minecraft.server.Main.main(Main.java:109) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-Caused by: java.lang.ExceptionInInitializerError
-	at loaderCommon.fabric.com.seibel.distanthorizons.common.AbstractModInitializer.onInitializeServer(AbstractModInitializer.java:99) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.11.jar:?]
-	... 7 more
-Caused by: java.lang.NullPointerException: Cannot invoke "com.seibel.distanthorizons.core.wrapperInterfaces.config.IConfigGui.addOnScreenChangeListener(java.lang.Runnable)" because "com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler.configGui" is null
-	at com.seibel.distanthorizons.core.config.eventHandlers.presets.AbstractPresetConfigEventHandler.<init>(AbstractPresetConfigEventHandler.java:60) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at com.seibel.distanthorizons.core.config.eventHandlers.presets.ThreadPresetConfigEventHandler.<init>(ThreadPresetConfigEventHandler.java:139) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at com.seibel.distanthorizons.core.config.eventHandlers.presets.ThreadPresetConfigEventHandler.<clinit>(ThreadPresetConfigEventHandler.java:37) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at loaderCommon.fabric.com.seibel.distanthorizons.common.AbstractModInitializer.onInitializeServer(AbstractModInitializer.java:99) ~[DistantHorizons-2.1.0-a-1.20.4.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:384) ~[fabric-loader-0.15.11.jar:?]
-	... 7 more
+[20:08:47] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
+	at ame.b(SourceFile:62) ~[server-1.20.4.jar:?]
+	at amb.a(SourceFile:138) ~[server-1.20.4.jar:?]
+	at amc.<init>(SourceFile:12) ~[server-1.20.4.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:112) ~[server-1.20.4.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:08:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:08:51] [ServerMain/INFO]: Loaded 7 recipes
+[20:08:51] [ServerMain/INFO]: Loaded 1271 advancements
+[20:08:52] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:08:52] [Server thread/INFO]: Loading properties
+[20:08:52] [Server thread/INFO]: Default game type: SURVIVAL
+[20:08:52] [Server thread/INFO]: Generating keypair
+[20:08:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:08:52] [Server thread/INFO]: Using epoll channel type
+[20:08:52] [Server thread/INFO]: Preparing level "world"
+[20:09:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:09:10] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[20:09:10] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[20:09:11] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[20:09:11] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[20:09:12] [Server thread/INFO]: Time elapsed: 10602 ms
+[20:09:12] [Server thread/INFO]: Done (19.285s)! For help, type "help"
+[20:09:12] [Server thread/ERROR]: Couldn't load server icon
+java.lang.IllegalStateException: Must be 64 pixels wide
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar:?]
+	at net.minecraft.server.MinecraftServer.j(SourceFile:807) ~[server-1.20.4.jar:?]
+	at java.util.Optional.flatMap(Optional.java:289) ~[?:?]
+	at net.minecraft.server.MinecraftServer.bm(SourceFile:804) ~[server-1.20.4.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:653) ~[server-1.20.4.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:270) ~[server-1.20.4.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:14:37] [User Authenticator #1/INFO]: UUID of player SrR1v3rah is e94ddd07-0ca0-4666-a5e9-ffa27d4ab624
+[20:14:37] [Server thread/INFO]: SrR1v3rah[/127.155.49.148:39927] logged in with entity id 104 at (-2393.328427668334, 63.0, -1237.699999988079)
+[20:14:37] [Server thread/INFO]: SrR1v3rah joined the game
+[20:14:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
+[20:17:12] [Server thread/INFO]: SrR1v3rah lost connection: Disconnected
+[20:17:12] [Server thread/INFO]: SrR1v3rah left the game
+[20:17:19] [Server thread/INFO]: Stopping the server
+[20:17:19] [Server thread/INFO]: Stopping server
+[20:17:19] [Server thread/INFO]: Saving players
+[20:17:19] [Server thread/INFO]: Saving worlds
+[20:17:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:overworld
+[20:17:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_end
+[20:17:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_nether
+[20:17:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:17:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:17:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:17:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
