@@ -1,5 +1,5 @@
-[19:39:01] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
-[19:39:01] [main/INFO]: Loading 11 mods:
+[19:40:15] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
+[19:40:15] [main/INFO]: Loading 10 mods:
 	- distanthorizons 2.1.0-a
 	   |-- fabric-api-base 0.4.35+78d798af4f
 	   |-- fabric-events-interaction-v0 0.6.14+78d798af4f
@@ -12,16 +12,14 @@
 	- fabricloader 0.15.11
 	   \-- mixinextras 0.3.5
 	- java 21
-	- lithium 0.12.1
 	- minecraft 1.20.4
-[19:39:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/meowtrying/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[19:39:01] [main/INFO]: Compatibility level set to JAVA_17
-[19:39:02] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 0 override(s) found
-[19:39:02] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[19:39:09] [main/INFO]: Initializing Distant Horizons
-[19:39:09] [main/INFO]: Java.awt.headless set to true. Distant Horizons can correctly display error and info dialog windows.
-[19:39:09] [main/INFO]: Distant Horizons, Version: 2.1.0-a
-[19:39:09] [main/ERROR]: Failed to start the minecraft server
+[19:40:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/meowtrying/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[19:40:15] [main/INFO]: Compatibility level set to JAVA_17
+[19:40:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[19:40:21] [main/INFO]: Initializing Distant Horizons
+[19:40:21] [main/INFO]: Java.awt.headless set to true. Distant Horizons can correctly display error and info dialog windows.
+[19:40:21] [main/INFO]: Distant Horizons, Version: 2.1.0-a
+[19:40:21] [main/ERROR]: Failed to start the minecraft server
 java.lang.RuntimeException: Could not execute entrypoint stage 'server' due to errors, provided by 'distanthorizons'!
 	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$2(FabricLoaderImpl.java:388) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[fabric-loader-0.15.11.jar:?]
