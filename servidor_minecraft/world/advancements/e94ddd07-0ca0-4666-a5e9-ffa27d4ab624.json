@@ -2816,5 +2816,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2024-06-12 05:56:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-06-12 06:01:09 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }
