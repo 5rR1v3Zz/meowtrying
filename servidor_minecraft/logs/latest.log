@@ -1,35 +1,27 @@
-[20:19:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:19:14] [ServerMain/INFO]: Loaded 7 recipes
-[20:19:14] [ServerMain/INFO]: Loaded 1271 advancements
-[20:19:15] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[20:19:15] [Server thread/INFO]: Loading properties
-[20:19:15] [Server thread/INFO]: Default game type: SURVIVAL
-[20:19:15] [Server thread/INFO]: Generating keypair
-[20:19:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:19:15] [Server thread/INFO]: Using epoll channel type
-[20:19:15] [Server thread/INFO]: Preparing level "world"
-[20:19:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:19:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:19:31] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[20:19:31] [Server thread/INFO]: Time elapsed: 8767 ms
-[20:19:31] [Server thread/INFO]: Done (15.701s)! For help, type "help"
-[20:19:31] [Server thread/ERROR]: Couldn't load server icon
+[01:58:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:58:18] [ServerMain/INFO]: Loaded 7 recipes
+[01:58:19] [ServerMain/INFO]: Loaded 1271 advancements
+[01:58:19] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[01:58:19] [Server thread/INFO]: Loading properties
+[01:58:19] [Server thread/INFO]: Default game type: SURVIVAL
+[01:58:19] [Server thread/INFO]: Generating keypair
+[01:58:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:58:19] [Server thread/INFO]: Using epoll channel type
+[01:58:19] [Server thread/INFO]: Preparing level "world"
+[01:58:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:58:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[01:58:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:58:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[01:58:26] [Worker-Main-1/INFO]: Preparing spawn area: 33%
+[01:58:27] [Server thread/INFO]: Time elapsed: 4869 ms
+[01:58:27] [Server thread/INFO]: Done (7.257s)! For help, type "help"
+[01:58:27] [Server thread/ERROR]: Couldn't load server icon
 java.lang.IllegalStateException: Must be 64 pixels wide
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar:?]
 	at net.minecraft.server.MinecraftServer.j(SourceFile:807) ~[server-1.20.4.jar:?]
@@ -38,14 +30,40 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 	at net.minecraft.server.MinecraftServer.w(SourceFile:653) ~[server-1.20.4.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:270) ~[server-1.20.4.jar:?]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[20:20:18] [Server thread/INFO]: Stopping the server
-[20:20:18] [Server thread/INFO]: Stopping server
-[20:20:18] [Server thread/INFO]: Saving players
-[20:20:18] [Server thread/INFO]: Saving worlds
-[20:20:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:overworld
-[20:20:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_nether
-[20:20:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_end
-[20:20:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:20:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:20:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:20:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:01:09] [User Authenticator #1/INFO]: UUID of player Zineinside is 796b6184-0bcb-46e2-898e-a65dd58479ce
+[02:01:10] [Server thread/INFO]: Zineinside[/127.44.187.184:43093] logged in with entity id 103 at (-90.5, 78.0, -163.5)
+[02:01:10] [Server thread/INFO]: Zineinside joined the game
+[02:02:47] [Server thread/INFO]: Zineinside has made the advancement [Stone Age]
+[02:03:15] [Server thread/INFO]: Zineinside has made the advancement [Getting an Upgrade]
+[02:07:05] [Server thread/INFO]: Zineinside has made the advancement [Sweet Dreams]
+[02:14:23] [Server thread/INFO]: [Not Secure] [Server] Hola zine
+[02:14:36] [Server thread/INFO]: <Zineinside> WHAR5KZVHGSVF
+[02:14:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:14:43] [Server thread/INFO]: say/say <--[HERE]
+[02:14:46] [Server thread/INFO]: <Zineinside> I LIKE POOP
+[02:14:51] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:14:51] [Server thread/INFO]: <--[HERE]
+[02:14:52] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:14:52] [Server thread/INFO]: <--[HERE]
+[02:14:55] [Server thread/INFO]: <Zineinside> SMELLS SO GOOD
+[02:14:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:14:57] [Server thread/INFO]: s<--[HERE]
+[02:15:00] [Server thread/INFO]: [Not Secure] [Server] te veo zine
+[02:15:02] [Server thread/INFO]: <Zineinside> :]
+[02:15:19] [Server thread/INFO]: <Zineinside> GO IT MY FRIES
+[02:16:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:16:09] [Server thread/INFO]: aaa<--[HERE]
+[02:18:23] [Server thread/INFO]: [Not Secure] [Server] THE SERVER STOPPED SOON
+[02:18:31] [Server thread/INFO]: Stopping the server
+[02:18:31] [Server thread/INFO]: Stopping server
+[02:18:31] [Server thread/INFO]: Saving players
+[02:18:31] [Server thread/INFO]: Zineinside lost connection: Server closed
+[02:18:31] [Server thread/INFO]: Zineinside left the game
+[02:18:31] [Server thread/INFO]: Saving worlds
+[02:18:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:overworld
+[02:19:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_nether
+[02:19:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_end
+[02:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
