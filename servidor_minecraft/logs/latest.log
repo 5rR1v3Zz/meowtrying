@@ -1,27 +1,27 @@
-[01:58:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:58:18] [ServerMain/INFO]: Loaded 7 recipes
-[01:58:19] [ServerMain/INFO]: Loaded 1271 advancements
-[01:58:19] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[01:58:19] [Server thread/INFO]: Loading properties
-[01:58:19] [Server thread/INFO]: Default game type: SURVIVAL
-[01:58:19] [Server thread/INFO]: Generating keypair
-[01:58:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:58:19] [Server thread/INFO]: Using epoll channel type
-[01:58:19] [Server thread/INFO]: Preparing level "world"
-[01:58:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:58:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:58:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:58:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:26] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:26] [Worker-Main-1/INFO]: Preparing spawn area: 33%
-[01:58:27] [Server thread/INFO]: Time elapsed: 4869 ms
-[01:58:27] [Server thread/INFO]: Done (7.257s)! For help, type "help"
-[01:58:27] [Server thread/ERROR]: Couldn't load server icon
+[02:20:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:20:37] [ServerMain/INFO]: Loaded 7 recipes
+[02:20:37] [ServerMain/INFO]: Loaded 1271 advancements
+[02:20:38] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[02:20:38] [Server thread/INFO]: Loading properties
+[02:20:38] [Server thread/INFO]: Default game type: SURVIVAL
+[02:20:38] [Server thread/INFO]: Generating keypair
+[02:20:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:20:38] [Server thread/INFO]: Using epoll channel type
+[02:20:38] [Server thread/INFO]: Preparing level "world"
+[02:20:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:20:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:20:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:20:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:20:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:20:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:20:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:20:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:20:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:20:44] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:20:45] [Worker-Main-3/INFO]: Preparing spawn area: 35%
+[02:20:45] [Server thread/INFO]: Time elapsed: 4867 ms
+[02:20:45] [Server thread/INFO]: Done (7.210s)! For help, type "help"
+[02:20:45] [Server thread/ERROR]: Couldn't load server icon
 java.lang.IllegalStateException: Must be 64 pixels wide
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar:?]
 	at net.minecraft.server.MinecraftServer.j(SourceFile:807) ~[server-1.20.4.jar:?]
@@ -30,40 +30,65 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 	at net.minecraft.server.MinecraftServer.w(SourceFile:653) ~[server-1.20.4.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:270) ~[server-1.20.4.jar:?]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[02:01:09] [User Authenticator #1/INFO]: UUID of player Zineinside is 796b6184-0bcb-46e2-898e-a65dd58479ce
-[02:01:10] [Server thread/INFO]: Zineinside[/127.44.187.184:43093] logged in with entity id 103 at (-90.5, 78.0, -163.5)
-[02:01:10] [Server thread/INFO]: Zineinside joined the game
-[02:02:47] [Server thread/INFO]: Zineinside has made the advancement [Stone Age]
-[02:03:15] [Server thread/INFO]: Zineinside has made the advancement [Getting an Upgrade]
-[02:07:05] [Server thread/INFO]: Zineinside has made the advancement [Sweet Dreams]
-[02:14:23] [Server thread/INFO]: [Not Secure] [Server] Hola zine
-[02:14:36] [Server thread/INFO]: <Zineinside> WHAR5KZVHGSVF
-[02:14:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[02:14:43] [Server thread/INFO]: say/say <--[HERE]
-[02:14:46] [Server thread/INFO]: <Zineinside> I LIKE POOP
-[02:14:51] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[02:14:51] [Server thread/INFO]: <--[HERE]
-[02:14:52] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[02:14:52] [Server thread/INFO]: <--[HERE]
-[02:14:55] [Server thread/INFO]: <Zineinside> SMELLS SO GOOD
-[02:14:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[02:14:57] [Server thread/INFO]: s<--[HERE]
-[02:15:00] [Server thread/INFO]: [Not Secure] [Server] te veo zine
-[02:15:02] [Server thread/INFO]: <Zineinside> :]
-[02:15:19] [Server thread/INFO]: <Zineinside> GO IT MY FRIES
-[02:16:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[02:16:09] [Server thread/INFO]: aaa<--[HERE]
-[02:18:23] [Server thread/INFO]: [Not Secure] [Server] THE SERVER STOPPED SOON
-[02:18:31] [Server thread/INFO]: Stopping the server
-[02:18:31] [Server thread/INFO]: Stopping server
-[02:18:31] [Server thread/INFO]: Saving players
-[02:18:31] [Server thread/INFO]: Zineinside lost connection: Server closed
-[02:18:31] [Server thread/INFO]: Zineinside left the game
-[02:18:31] [Server thread/INFO]: Saving worlds
-[02:18:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:overworld
-[02:19:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_nether
-[02:19:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_end
-[02:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:21:06] [User Authenticator #1/INFO]: UUID of player Zineinside is 796b6184-0bcb-46e2-898e-a65dd58479ce
+[02:21:07] [Server thread/INFO]: Zineinside[/127.44.187.184:46521] logged in with entity id 109 at (154.45717648701537, 63.0, -809.5005636732966)
+[02:21:07] [Server thread/INFO]: Zineinside joined the game
+[02:21:15] [Server thread/INFO]: [Not Secure] [Server] wao
+[02:21:25] [Server thread/INFO]: <Zineinside> SHUT UP
+[02:24:32] [User Authenticator #2/INFO]: UUID of player SrR1v3rah is e94ddd07-0ca0-4666-a5e9-ffa27d4ab624
+[02:24:33] [Server thread/INFO]: SrR1v3rah[/127.44.187.184:50523] logged in with entity id 1094 at (-2370.665097743485, 64.0, -1326.423289983424)
+[02:24:33] [Server thread/INFO]: SrR1v3rah joined the game
+[02:24:42] [Server thread/INFO]: <Zineinside> YOUR DUMB
+[02:24:49] [Server thread/INFO]: <Zineinside> JUST KIDING
+[02:24:56] [Server thread/INFO]: <Zineinside> HAJAHJAHAJAHJAHJAHJHAJAHAJHAJAHYJSHREYXJUHGHEAWÑNHJCT´FK{+¿HJ
+[02:25:14] [Server thread/INFO]: <SrR1v3rah> xaero-waypoint:Shared Location:S:-2392:63:-1326:4:false:0:Internal-overworld-waypoints
+[02:25:22] [Server thread/INFO]: Zineinside lost connection: Disconnected
+[02:25:22] [Server thread/INFO]: Zineinside left the game
+[02:25:22] [Server thread/WARN]: handleDisconnection() called twice
+[02:25:42] [Server thread/INFO]: SrR1v3rah lost connection: Disconnected
+[02:25:42] [Server thread/INFO]: SrR1v3rah left the game
+[02:25:44] [User Authenticator #3/INFO]: UUID of player SrR1v3rah is e94ddd07-0ca0-4666-a5e9-ffa27d4ab624
+[02:25:45] [Server thread/INFO]: SrR1v3rah[/127.44.187.184:39907] logged in with entity id 1827 at (-2388.7551191560046, 63.0, -1325.1282618771165)
+[02:25:45] [Server thread/INFO]: SrR1v3rah joined the game
+[02:27:03] [User Authenticator #4/INFO]: UUID of player Zineinside is 796b6184-0bcb-46e2-898e-a65dd58479ce
+[02:27:04] [Server thread/INFO]: Zineinside[/127.44.187.184:49031] logged in with entity id 2507 at (154.114220228886, 63.0, -807.6999999880791)
+[02:27:04] [Server thread/INFO]: Zineinside joined the game
+[02:27:25] [Server thread/INFO]: <SrR1v3rah> xaero-waypoint:Shared Location:S:-2390:63:-1326:14:false:0:Internal-overworld-waypoints
+[02:28:24] [Server thread/INFO]: SrR1v3rah lost connection: Disconnected
+[02:28:24] [Server thread/INFO]: SrR1v3rah left the game
+[02:29:19] [Server thread/INFO]: Zineinside lost connection: Timed out
+[02:29:19] [Server thread/INFO]: Zineinside left the game
+[02:36:17] [Server thread/INFO]: SrR1v3rah (/127.44.187.184:55023) lost connection: Disconnected
+[02:37:40] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:37:40] [Server thread/INFO]: sss<--[HERE]
+[02:38:53] [User Authenticator #5/INFO]: UUID of player SrR1v3rah is e94ddd07-0ca0-4666-a5e9-ffa27d4ab624
+[02:38:54] [Server thread/INFO]: SrR1v3rah[/127.44.187.184:57501] logged in with entity id 3677 at (-2388.7159415662563, 63.0, -1326.005246802871)
+[02:38:54] [Server thread/INFO]: SrR1v3rah joined the game
+[02:43:00] [User Authenticator #6/INFO]: UUID of player Zineinside is 796b6184-0bcb-46e2-898e-a65dd58479ce
+[02:43:01] [Server thread/INFO]: Zineinside[/127.44.187.184:59045] logged in with entity id 4697 at (76.61407878356324, 72.0, -807.8636247843542)
+[02:43:01] [Server thread/INFO]: Zineinside joined the game
+[02:46:23] [Server thread/INFO]: Zineinside has made the advancement [Suit Up]
+[02:46:31] [Server thread/INFO]: Zineinside has made the advancement [Acquire Hardware]
+[03:09:19] [Server thread/INFO]: Zineinside has made the advancement [Cover Me with Diamonds]
+[03:11:10] [Server thread/INFO]: Zineinside has made the advancement [What a Deal!]
+[03:17:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[03:17:57] [Server thread/INFO]: sss<--[HERE]
+[03:20:04] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-2410, y=69, z=-1079} hx{x=-2410, y=68, z=-1078}
+[03:24:54] [Server thread/INFO]: Zineinside has made the advancement [Monster Hunter]
+[03:26:03] [Server thread/INFO]: Zineinside has made the advancement [Not Today, Thank You]
+[03:30:14] [Server thread/INFO]: <Zineinside> died
+[03:34:22] [Server thread/INFO]: SrR1v3rah lost connection: Disconnected
+[03:34:22] [Server thread/INFO]: SrR1v3rah left the game
+[03:34:27] [Server thread/INFO]: Zineinside lost connection: Disconnected
+[03:34:27] [Server thread/INFO]: Zineinside left the game
+[03:34:36] [Server thread/INFO]: Stopping the server
+[03:34:36] [Server thread/INFO]: Stopping server
+[03:34:36] [Server thread/INFO]: Saving players
+[03:34:36] [Server thread/INFO]: Saving worlds
+[03:34:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:overworld
+[03:34:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_nether
+[03:34:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_end
+[03:34:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:34:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:34:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:34:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
