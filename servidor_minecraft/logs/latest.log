@@ -1,53 +1,26 @@
-[05:52:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:52:28] [ServerMain/INFO]: Loaded 7 recipes
-[05:52:28] [ServerMain/INFO]: Loaded 1271 advancements
-[05:52:29] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[05:52:29] [Server thread/INFO]: Loading properties
-[05:52:29] [Server thread/INFO]: Default game type: SURVIVAL
-[05:52:29] [Server thread/INFO]: Generating keypair
-[05:52:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:52:29] [Server thread/INFO]: Using epoll channel type
-[05:52:29] [Server thread/INFO]: Preparing level "world"
-[05:52:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:52:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:52:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:52:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:52:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:52:35] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[05:52:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:52:36] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[05:52:36] [Worker-Main-2/INFO]: Preparing spawn area: 7%
-[05:52:37] [Worker-Main-2/INFO]: Preparing spawn area: 15%
-[05:52:37] [Worker-Main-2/INFO]: Preparing spawn area: 17%
-[05:52:38] [Worker-Main-3/INFO]: Preparing spawn area: 23%
-[05:52:38] [Worker-Main-3/INFO]: Preparing spawn area: 25%
-[05:52:39] [Worker-Main-2/INFO]: Preparing spawn area: 27%
-[05:52:39] [Worker-Main-1/INFO]: Preparing spawn area: 32%
-[05:52:40] [Worker-Main-2/INFO]: Preparing spawn area: 35%
-[05:52:40] [Worker-Main-3/INFO]: Preparing spawn area: 36%
-[05:52:41] [Worker-Main-1/INFO]: Preparing spawn area: 40%
-[05:52:41] [Worker-Main-2/INFO]: Preparing spawn area: 43%
-[05:52:42] [Worker-Main-3/INFO]: Preparing spawn area: 47%
-[05:52:42] [Worker-Main-3/INFO]: Preparing spawn area: 49%
-[05:52:43] [Worker-Main-1/INFO]: Preparing spawn area: 54%
-[05:52:44] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[05:52:44] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[05:52:44] [Worker-Main-2/INFO]: Preparing spawn area: 58%
-[05:52:45] [Worker-Main-2/INFO]: Preparing spawn area: 60%
-[05:52:45] [Worker-Main-2/INFO]: Preparing spawn area: 67%
-[05:52:46] [Worker-Main-2/INFO]: Preparing spawn area: 69%
-[05:52:46] [Worker-Main-2/INFO]: Preparing spawn area: 76%
-[05:52:47] [Worker-Main-1/INFO]: Preparing spawn area: 78%
-[05:52:47] [Worker-Main-2/INFO]: Preparing spawn area: 81%
-[05:52:48] [Worker-Main-1/INFO]: Preparing spawn area: 84%
-[05:52:48] [Worker-Main-3/INFO]: Preparing spawn area: 92%
-[05:52:49] [Worker-Main-2/INFO]: Preparing spawn area: 95%
-[05:52:49] [Server thread/INFO]: Time elapsed: 17993 ms
-[05:52:49] [Server thread/INFO]: Done (20.426s)! For help, type "help"
-[05:52:49] [Server thread/ERROR]: Couldn't load server icon
+[15:27:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:27:43] [ServerMain/INFO]: Loaded 7 recipes
+[15:27:43] [ServerMain/INFO]: Loaded 1271 advancements
+[15:27:44] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:27:44] [Server thread/INFO]: Loading properties
+[15:27:44] [Server thread/INFO]: Default game type: SURVIVAL
+[15:27:44] [Server thread/INFO]: Generating keypair
+[15:27:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:27:44] [Server thread/INFO]: Using epoll channel type
+[15:27:44] [Server thread/INFO]: Preparing level "world"
+[15:27:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:27:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:27:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:27:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:27:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:27:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:27:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:27:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:27:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:27:50] [Worker-Main-2/INFO]: Preparing spawn area: 85%
+[15:27:50] [Server thread/INFO]: Time elapsed: 4078 ms
+[15:27:50] [Server thread/INFO]: Done (6.480s)! For help, type "help"
+[15:27:51] [Server thread/ERROR]: Couldn't load server icon
 java.lang.IllegalStateException: Must be 64 pixels wide
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:512) ~[guava-32.1.2-jre.jar:?]
 	at net.minecraft.server.MinecraftServer.j(SourceFile:807) ~[server-1.20.4.jar:?]
@@ -56,19 +29,26 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 	at net.minecraft.server.MinecraftServer.w(SourceFile:653) ~[server-1.20.4.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:270) ~[server-1.20.4.jar:?]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:53:17] [User Authenticator #1/INFO]: UUID of player SrR1v3rah is e94ddd07-0ca0-4666-a5e9-ffa27d4ab624
-[05:53:18] [Server thread/INFO]: SrR1v3rah[/127.44.187.184:60501] logged in with entity id 159 at (-2392.8599447366482, 70.0, -1064.642377849386)
-[05:53:18] [Server thread/INFO]: SrR1v3rah joined the game
-[06:05:22] [Server thread/INFO]: SrR1v3rah lost connection: Disconnected
-[06:05:22] [Server thread/INFO]: SrR1v3rah left the game
-[06:05:41] [Server thread/INFO]: Stopping the server
-[06:05:41] [Server thread/INFO]: Stopping server
-[06:05:41] [Server thread/INFO]: Saving players
-[06:05:41] [Server thread/INFO]: Saving worlds
-[06:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:overworld
-[06:05:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_end
-[06:05:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_nether
-[06:05:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:05:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:05:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:05:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:28:15] [Server thread/INFO]: SrR1v3rah (/127.44.11.209:60667) lost connection: Disconnected
+[15:30:13] [User Authenticator #1/INFO]: UUID of player SrR1v3rah is e94ddd07-0ca0-4666-a5e9-ffa27d4ab624
+[15:30:14] [Server thread/INFO]: SrR1v3rah[/127.44.11.209:42523] logged in with entity id 127 at (-2379.3029770754347, 60.0, -1326.300000011921)
+[15:30:14] [Server thread/INFO]: SrR1v3rah joined the game
+[15:44:30] [Server thread/INFO]: SrR1v3rah has made the advancement [The Parrots and the Bats]
+[16:08:11] [Server thread/INFO]: SrR1v3rah lost connection: Disconnected
+[16:08:11] [Server thread/INFO]: SrR1v3rah left the game
+[16:08:35] [User Authenticator #2/INFO]: UUID of player SrR1v3rah is e94ddd07-0ca0-4666-a5e9-ffa27d4ab624
+[16:08:35] [Server thread/INFO]: SrR1v3rah[/127.44.11.209:35887] logged in with entity id 10351 at (-2503.603020955298, 82.0, -1074.734766385425)
+[16:08:35] [Server thread/INFO]: SrR1v3rah joined the game
+[16:24:00] [Server thread/INFO]: SrR1v3rah lost connection: Disconnected
+[16:24:00] [Server thread/INFO]: SrR1v3rah left the game
+[16:24:22] [Server thread/INFO]: Stopping the server
+[16:24:22] [Server thread/INFO]: Stopping server
+[16:24:22] [Server thread/INFO]: Saving players
+[16:24:22] [Server thread/INFO]: Saving worlds
+[16:24:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:overworld
+[16:24:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_nether
+[16:24:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[meowworld]'/minecraft:the_end
+[16:24:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:24:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:24:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:24:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
